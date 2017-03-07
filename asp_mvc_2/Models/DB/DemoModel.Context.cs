@@ -30,8 +30,10 @@ namespace asp_mvc_2.Models.DB
         public virtual DbSet<SYSUserProfile> SYSUserProfiles { get; set; }
         public virtual DbSet<SYSUserRole> SYSUserRoles { get; set; }
 
-        public System.Data.Entity.DbSet<asp_mvc_2.Models.ViewModel.UserSignUpView> UserSignUpViews { get; set; }
+        public System.Data.Entity.DbSet<asp_mvc_2.Models.ViewModel.UserProfileView> UserProfileViews { get; set; }
 
-        public System.Data.Entity.DbSet<asp_mvc_2.Models.ViewModel.UserLoginView> UserLoginViews { get; set; }
+        /*public System.Data.Entity.DbSet<asp_mvc_2.Models.ViewModel.UserSignUpView> UserSignUpViews { get; set; }
+
+        public System.Data.Entity.DbSet<asp_mvc_2.Models.ViewModel.UserLoginView> UserLoginViews { get; set; }*/
     }
 }
